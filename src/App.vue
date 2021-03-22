@@ -1,5 +1,5 @@
 <template>
-  <div>hehe
+  <div>
     <input v-model="currentTodo" @keydown.enter="addTodo()" placeholder="Add a todo">
     <ul class="todos">
       <li  v-for="todo in todos" :key="todo.id" v-bind:class="{completed: todo.completed}">
