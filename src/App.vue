@@ -2,7 +2,7 @@
   <div class="--todo_main">
     <md-field>
       <md-input
-        class="todo-input"
+        class="--todo_input"
         v-model="currentTodo"
         @keydown.enter="addTodo"
         placeholder="Add a todo"
@@ -73,7 +73,7 @@ export default {
 ul {
   list-style-type: none;
 }
-.todo-input {
+.--todo_input {
   padding-left: 10px;
   padding-right: 10px;
 }
